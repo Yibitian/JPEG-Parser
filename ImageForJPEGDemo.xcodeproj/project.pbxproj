@@ -13,6 +13,9 @@
 		6C54C1CB1D81172D00B97663 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C54C1C91D81172D00B97663 /* Main.storyboard */; };
 		6C54C1CD1D81172D00B97663 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C54C1CC1D81172D00B97663 /* Assets.xcassets */; };
 		6C54C1D01D81172D00B97663 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C54C1CE1D81172D00B97663 /* LaunchScreen.storyboard */; };
+		6C54C1D81D81175B00B97663 /* Space5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C54C1D71D81175B00B97663 /* Space5.jpg */; };
+		6C54C1DB1D814E0500B97663 /* JPEGImageDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C54C1DA1D814E0500B97663 /* JPEGImageDataParser.m */; };
+		6C77867C1D94E1000017D5EC /* Image4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C77867B1D94E1000017D5EC /* Image4.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		6C54C1CC1D81172D00B97663 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C54C1CF1D81172D00B97663 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C54C1D11D81172D00B97663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C54C1D71D81175B00B97663 /* Space5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Space5.jpg; sourceTree = "<group>"; };
+		6C54C1D91D814E0500B97663 /* JPEGImageDataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPEGImageDataParser.h; sourceTree = "<group>"; };
+		6C54C1DA1D814E0500B97663 /* JPEGImageDataParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPEGImageDataParser.m; sourceTree = "<group>"; };
+		6C77867B1D94E1000017D5EC /* Image4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Image4.jpg; sourceTree = "<group>"; };
+		6C77867D1D94E1830017D5EC /* Parser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Parser.h; sourceTree = "<group>"; };
+		6CFDEA9F1D9216D700FCC98F /* JPEGDataParserHelp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPEGDataParserHelp.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +71,12 @@
 				6C54C1C41D81172D00B97663 /* AppDelegate.m */,
 				6C54C1C61D81172D00B97663 /* ViewController.h */,
 				6C54C1C71D81172D00B97663 /* ViewController.m */,
+				6CFDEA9F1D9216D700FCC98F /* JPEGDataParserHelp.h */,
+				6C54C1D91D814E0500B97663 /* JPEGImageDataParser.h */,
+				6C54C1DA1D814E0500B97663 /* JPEGImageDataParser.m */,
+				6C77867D1D94E1830017D5EC /* Parser.h */,
+				6C77867B1D94E1000017D5EC /* Image4.jpg */,
+				6C54C1D71D81175B00B97663 /* Space5.jpg */,
 				6C54C1C91D81172D00B97663 /* Main.storyboard */,
 				6C54C1CC1D81172D00B97663 /* Assets.xcassets */,
 				6C54C1CE1D81172D00B97663 /* LaunchScreen.storyboard */,
@@ -139,7 +154,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C54C1D01D81172D00B97663 /* LaunchScreen.storyboard in Resources */,
+				6C77867C1D94E1000017D5EC /* Image4.jpg in Resources */,
 				6C54C1CD1D81172D00B97663 /* Assets.xcassets in Resources */,
+				6C54C1D81D81175B00B97663 /* Space5.jpg in Resources */,
 				6C54C1CB1D81172D00B97663 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C54C1DB1D814E0500B97663 /* JPEGImageDataParser.m in Sources */,
 				6C54C1C81D81172D00B97663 /* ViewController.m in Sources */,
 				6C54C1C51D81172D00B97663 /* AppDelegate.m in Sources */,
 				6C54C1C21D81172D00B97663 /* main.m in Sources */,
@@ -219,7 +237,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -261,7 +279,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,6 +330,7 @@
 				6C54C1D61D81172D00B97663 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

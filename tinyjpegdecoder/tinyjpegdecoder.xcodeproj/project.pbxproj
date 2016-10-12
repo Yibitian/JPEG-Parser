@@ -1,0 +1,152 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		6C2BE1831D98CC0100C9CECE /* .hg_archival.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = .hg_archival.txt; sourceTree = "<group>"; };
+		6C2BE1841D98CC0100C9CECE /* jidctflt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jidctflt.c; sourceTree = "<group>"; };
+		6C2BE1851D98CC0100C9CECE /* loadjpeg.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = loadjpeg.c; sourceTree = "<group>"; };
+		6C2BE1861D98CC0100C9CECE /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		6C2BE1871D98CC0100C9CECE /* test_images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = test_images; sourceTree = "<group>"; };
+		6C2BE1881D98CC0100C9CECE /* testrgb.md5sums */ = {isa = PBXFileReference; lastKnownFileType = text; path = testrgb.md5sums; sourceTree = "<group>"; };
+		6C2BE1891D98CC0100C9CECE /* tinyjpeg-internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tinyjpeg-internal.h"; sourceTree = "<group>"; };
+		6C2BE18A1D98CC0100C9CECE /* tinyjpeg.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tinyjpeg.c; sourceTree = "<group>"; };
+		6C2BE18B1D98CC0100C9CECE /* tinyjpeg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tinyjpeg.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		6C2BE17D1D98CC0100C9CECE = {
+			isa = PBXGroup;
+			children = (
+				6C2BE1831D98CC0100C9CECE /* .hg_archival.txt */,
+				6C2BE1841D98CC0100C9CECE /* jidctflt.c */,
+				6C2BE1851D98CC0100C9CECE /* loadjpeg.c */,
+				6C2BE1861D98CC0100C9CECE /* Makefile */,
+				6C2BE1871D98CC0100C9CECE /* test_images */,
+				6C2BE1881D98CC0100C9CECE /* testrgb.md5sums */,
+				6C2BE1891D98CC0100C9CECE /* tinyjpeg-internal.h */,
+				6C2BE18A1D98CC0100C9CECE /* tinyjpeg.c */,
+				6C2BE18B1D98CC0100C9CECE /* tinyjpeg.h */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		6C2BE1821D98CC0100C9CECE /* tinyjpegdecoder */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 6C2BE18C1D98CC0100C9CECE /* Build configuration list for PBXLegacyTarget "tinyjpegdecoder" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/apple1/Desktop/ImageForJPEGDemo/tinyjpegdecoder-20070609";
+			dependencies = (
+			);
+			name = tinyjpegdecoder;
+			passBuildSettingsInEnvironment = 1;
+			productName = "tinyjpegdecoder-20070609";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		6C2BE17E1D98CC0100C9CECE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 6C2BE1811D98CC0100C9CECE /* Build configuration list for PBXProject "tinyjpegdecoder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6C2BE17D1D98CC0100C9CECE;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C2BE1821D98CC0100C9CECE /* tinyjpegdecoder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		6C2BE17F1D98CC0100C9CECE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		6C2BE1801D98CC0100C9CECE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		6C2BE18D1D98CC0100C9CECE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = tinyjpegdecoder;
+			};
+			name = Debug;
+		};
+		6C2BE18E1D98CC0100C9CECE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = tinyjpegdecoder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C2BE1811D98CC0100C9CECE /* Build configuration list for PBXProject "tinyjpegdecoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C2BE17F1D98CC0100C9CECE /* Debug */,
+				6C2BE1801D98CC0100C9CECE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C2BE18C1D98CC0100C9CECE /* Build configuration list for PBXLegacyTarget "tinyjpegdecoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C2BE18D1D98CC0100C9CECE /* Debug */,
+				6C2BE18E1D98CC0100C9CECE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C2BE17E1D98CC0100C9CECE /* Project object */;
+}

@@ -7,23 +7,49 @@
 //
 
 #import "ViewController.h"
+#import "JPEGImageDataParser.h"
 
-@interface ViewController ()
+@interface ViewController () <JPEGImageDataParserDelegate>
+
+@property (nonatomic, strong) UIImageView *imageView;
 
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.imageView = [[UIImageView alloc] initWithFrame:self.view.bounds];
+    self.imageView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+    [self.view addSubview:self.imageView];
+    
+    UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 60, 30)];
+    [btn addTarget:self action:@selector(startButtonTouch:) forControlEvents:UIControlEventTouchUpInside];
+    [btn setTitle:@"start" forState:UIControlStateNormal];
+    [btn setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+    btn.center = self.view.center;
+    [self.view addSubview:btn];
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void) startButtonTouch:(UIButton *) btn
+{
+    NSString *path = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"Space5.jpg"];
+    
+    NSOperationQueue *op = [[NSOperationQueue alloc] init];
+    [op addOperationWithBlock:^{
+        JPEGImageDataParser *parser = [[JPEGImageDataParser alloc] init];
+        parser.delegate = self;
+        [parser openFile:path];
+    }];
 }
 
+- (void) imageMake:(UIImage *) image
+{
+    [[NSOperationQueue mainQueue] addOperationWithBlock:^{
+        self.imageView.image = image;
+    }];
+}
 
 @end
