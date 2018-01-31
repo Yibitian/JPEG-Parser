@@ -15,7 +15,17 @@
 		6C54C1D01D81172D00B97663 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C54C1CE1D81172D00B97663 /* LaunchScreen.storyboard */; };
 		6C54C1D81D81175B00B97663 /* Space5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C54C1D71D81175B00B97663 /* Space5.jpg */; };
 		6C54C1DB1D814E0500B97663 /* JPEGImageDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C54C1DA1D814E0500B97663 /* JPEGImageDataParser.m */; };
-		6C77867C1D94E1000017D5EC /* Image4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C77867B1D94E1000017D5EC /* Image4.jpg */; };
+		6C7F16301E52E8BF0092F929 /* JPEGImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7F162F1E52E8BF0092F929 /* JPEGImageView.m */; };
+		6C7F16331E52E9820092F929 /* JPEGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7F16321E52E9820092F929 /* JPEGImage.m */; };
+		6C7F630A1E54307600AAD28F /* JPEGImageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7F63091E54307600AAD28F /* JPEGImageInfo.m */; };
+		6C7F63101E54313400AAD28F /* JPEGDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7F630D1E54313400AAD28F /* JPEGDataTool.m */; };
+		6C7F63111E54313400AAD28F /* JPEGImageParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7F630F1E54313400AAD28F /* JPEGImageParser.m */; };
+		6C7F63141E544D7C00AAD28F /* JPEGQuantizationTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7F63131E544D7C00AAD28F /* JPEGQuantizationTable.m */; };
+		6C7F63171E544DC200AAD28F /* JPEGHuffmanTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7F63161E544DC200AAD28F /* JPEGHuffmanTable.m */; };
+		6C869D4E1E56DA0100E05A7E /* JPEGImageBitTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C869D4D1E56DA0100E05A7E /* JPEGImageBitTool.m */; };
+		6CC47ACC1E55438400DEFEC7 /* JPEGQuantizationIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC47ACB1E55438400DEFEC7 /* JPEGQuantizationIndex.m */; };
+		6CC47ACF1E55560800DEFEC7 /* JPEGHuffmanIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC47ACE1E55560800DEFEC7 /* JPEGHuffmanIndex.m */; };
+		6CC47AD51E5599A500DEFEC7 /* JPEGImageChroma.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC47AD41E5599A500DEFEC7 /* JPEGImageChroma.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,8 +42,29 @@
 		6C54C1D71D81175B00B97663 /* Space5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Space5.jpg; sourceTree = "<group>"; };
 		6C54C1D91D814E0500B97663 /* JPEGImageDataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPEGImageDataParser.h; sourceTree = "<group>"; };
 		6C54C1DA1D814E0500B97663 /* JPEGImageDataParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPEGImageDataParser.m; sourceTree = "<group>"; };
-		6C77867B1D94E1000017D5EC /* Image4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Image4.jpg; sourceTree = "<group>"; };
 		6C77867D1D94E1830017D5EC /* Parser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Parser.h; sourceTree = "<group>"; };
+		6C7F162E1E52E8BF0092F929 /* JPEGImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPEGImageView.h; path = Image/JPEGImageView.h; sourceTree = "<group>"; };
+		6C7F162F1E52E8BF0092F929 /* JPEGImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JPEGImageView.m; path = Image/JPEGImageView.m; sourceTree = "<group>"; };
+		6C7F16311E52E9820092F929 /* JPEGImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPEGImage.h; path = Image/JPEGImage.h; sourceTree = "<group>"; };
+		6C7F16321E52E9820092F929 /* JPEGImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JPEGImage.m; path = Image/JPEGImage.m; sourceTree = "<group>"; };
+		6C7F63081E54307600AAD28F /* JPEGImageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPEGImageInfo.h; sourceTree = "<group>"; };
+		6C7F63091E54307600AAD28F /* JPEGImageInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPEGImageInfo.m; sourceTree = "<group>"; };
+		6C7F630C1E54313400AAD28F /* JPEGDataTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPEGDataTool.h; sourceTree = "<group>"; };
+		6C7F630D1E54313400AAD28F /* JPEGDataTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPEGDataTool.m; sourceTree = "<group>"; };
+		6C7F630E1E54313400AAD28F /* JPEGImageParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPEGImageParser.h; sourceTree = "<group>"; };
+		6C7F630F1E54313400AAD28F /* JPEGImageParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPEGImageParser.m; sourceTree = "<group>"; };
+		6C7F63121E544D7C00AAD28F /* JPEGQuantizationTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPEGQuantizationTable.h; sourceTree = "<group>"; };
+		6C7F63131E544D7C00AAD28F /* JPEGQuantizationTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPEGQuantizationTable.m; sourceTree = "<group>"; };
+		6C7F63151E544DC200AAD28F /* JPEGHuffmanTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPEGHuffmanTable.h; sourceTree = "<group>"; };
+		6C7F63161E544DC200AAD28F /* JPEGHuffmanTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPEGHuffmanTable.m; sourceTree = "<group>"; };
+		6C869D4C1E56DA0100E05A7E /* JPEGImageBitTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPEGImageBitTool.h; sourceTree = "<group>"; };
+		6C869D4D1E56DA0100E05A7E /* JPEGImageBitTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPEGImageBitTool.m; sourceTree = "<group>"; };
+		6CC47ACA1E55438400DEFEC7 /* JPEGQuantizationIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPEGQuantizationIndex.h; sourceTree = "<group>"; };
+		6CC47ACB1E55438400DEFEC7 /* JPEGQuantizationIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPEGQuantizationIndex.m; sourceTree = "<group>"; };
+		6CC47ACD1E55560800DEFEC7 /* JPEGHuffmanIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPEGHuffmanIndex.h; sourceTree = "<group>"; };
+		6CC47ACE1E55560800DEFEC7 /* JPEGHuffmanIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPEGHuffmanIndex.m; sourceTree = "<group>"; };
+		6CC47AD31E5599A500DEFEC7 /* JPEGImageChroma.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPEGImageChroma.h; sourceTree = "<group>"; };
+		6CC47AD41E5599A500DEFEC7 /* JPEGImageChroma.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPEGImageChroma.m; sourceTree = "<group>"; };
 		6CFDEA9F1D9216D700FCC98F /* JPEGDataParserHelp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPEGDataParserHelp.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,8 +105,8 @@
 				6CFDEA9F1D9216D700FCC98F /* JPEGDataParserHelp.h */,
 				6C54C1D91D814E0500B97663 /* JPEGImageDataParser.h */,
 				6C54C1DA1D814E0500B97663 /* JPEGImageDataParser.m */,
+				6C7F162D1E52DB5E0092F929 /* Image */,
 				6C77867D1D94E1830017D5EC /* Parser.h */,
-				6C77867B1D94E1000017D5EC /* Image4.jpg */,
 				6C54C1D71D81175B00B97663 /* Space5.jpg */,
 				6C54C1C91D81172D00B97663 /* Main.storyboard */,
 				6C54C1CC1D81172D00B97663 /* Assets.xcassets */,
@@ -92,6 +123,53 @@
 				6C54C1C11D81172D00B97663 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C7F162D1E52DB5E0092F929 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				6C7F162E1E52E8BF0092F929 /* JPEGImageView.h */,
+				6C7F162F1E52E8BF0092F929 /* JPEGImageView.m */,
+				6C7F16311E52E9820092F929 /* JPEGImage.h */,
+				6C7F16321E52E9820092F929 /* JPEGImage.m */,
+				6C7F630B1E54313400AAD28F /* Tool */,
+				6C7F63071E54307600AAD28F /* Data */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		6C7F63071E54307600AAD28F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				6C7F63081E54307600AAD28F /* JPEGImageInfo.h */,
+				6C7F63091E54307600AAD28F /* JPEGImageInfo.m */,
+				6C7F63121E544D7C00AAD28F /* JPEGQuantizationTable.h */,
+				6C7F63131E544D7C00AAD28F /* JPEGQuantizationTable.m */,
+				6CC47ACA1E55438400DEFEC7 /* JPEGQuantizationIndex.h */,
+				6CC47ACB1E55438400DEFEC7 /* JPEGQuantizationIndex.m */,
+				6C7F63151E544DC200AAD28F /* JPEGHuffmanTable.h */,
+				6C7F63161E544DC200AAD28F /* JPEGHuffmanTable.m */,
+				6CC47ACD1E55560800DEFEC7 /* JPEGHuffmanIndex.h */,
+				6CC47ACE1E55560800DEFEC7 /* JPEGHuffmanIndex.m */,
+				6CC47AD31E5599A500DEFEC7 /* JPEGImageChroma.h */,
+				6CC47AD41E5599A500DEFEC7 /* JPEGImageChroma.m */,
+			);
+			name = Data;
+			path = Image/Data;
+			sourceTree = "<group>";
+		};
+		6C7F630B1E54313400AAD28F /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				6C869D4C1E56DA0100E05A7E /* JPEGImageBitTool.h */,
+				6C869D4D1E56DA0100E05A7E /* JPEGImageBitTool.m */,
+				6C7F630C1E54313400AAD28F /* JPEGDataTool.h */,
+				6C7F630D1E54313400AAD28F /* JPEGDataTool.m */,
+				6C7F630E1E54313400AAD28F /* JPEGImageParser.h */,
+				6C7F630F1E54313400AAD28F /* JPEGImageParser.m */,
+			);
+			name = Tool;
+			path = Image/Tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,7 +232,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C54C1D01D81172D00B97663 /* LaunchScreen.storyboard in Resources */,
-				6C77867C1D94E1000017D5EC /* Image4.jpg in Resources */,
 				6C54C1CD1D81172D00B97663 /* Assets.xcassets in Resources */,
 				6C54C1D81D81175B00B97663 /* Space5.jpg in Resources */,
 				6C54C1CB1D81172D00B97663 /* Main.storyboard in Resources */,
@@ -168,10 +245,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C7F16301E52E8BF0092F929 /* JPEGImageView.m in Sources */,
 				6C54C1DB1D814E0500B97663 /* JPEGImageDataParser.m in Sources */,
+				6C7F63111E54313400AAD28F /* JPEGImageParser.m in Sources */,
+				6C869D4E1E56DA0100E05A7E /* JPEGImageBitTool.m in Sources */,
 				6C54C1C81D81172D00B97663 /* ViewController.m in Sources */,
+				6CC47AD51E5599A500DEFEC7 /* JPEGImageChroma.m in Sources */,
+				6C7F63101E54313400AAD28F /* JPEGDataTool.m in Sources */,
+				6C7F63141E544D7C00AAD28F /* JPEGQuantizationTable.m in Sources */,
+				6C7F63171E544DC200AAD28F /* JPEGHuffmanTable.m in Sources */,
+				6CC47ACF1E55560800DEFEC7 /* JPEGHuffmanIndex.m in Sources */,
 				6C54C1C51D81172D00B97663 /* AppDelegate.m in Sources */,
+				6C7F630A1E54307600AAD28F /* JPEGImageInfo.m in Sources */,
 				6C54C1C21D81172D00B97663 /* main.m in Sources */,
+				6C7F16331E52E9820092F929 /* JPEGImage.m in Sources */,
+				6CC47ACC1E55438400DEFEC7 /* JPEGQuantizationIndex.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
